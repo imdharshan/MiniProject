@@ -36,4 +36,15 @@
     color: white;
     cursor: pointer;
   }
+
+  a {
+    background-color: #3498db;
+    color: white;
+    padding: 9px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
   

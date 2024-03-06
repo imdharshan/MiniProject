@@ -20,14 +20,14 @@
 
   <main>
     <section class="cta-section">
-      <h1>Welcome to Your Crop Market</h1>
+      <h1>Welcome to Agro - Mart</h1>
       <p>Your fresh and quality crops marketplace!</p>
     </section>
 
     <section class="login-section">
       <div class="login-buttons">
-        <button onclick="showLoginForm()">Login</button>
-        <button onclick="showRegisterForm()">Register</button>
+       <a href="login.html"><button>Login</button></a>
+       <a href="register.html"><button>Register</button></a>
       </div>
     </section>
 
@@ -36,30 +36,5 @@
       <p class="slogan">"From farm to table, the freshest journey."</p>
     </section>
   </main>
-
-  <div class="overlay" id="overlay">
-    <div class="form-container" id="form-container">
-      <span class="close-btn" onclick="closeForm()">×</span>
-      <div id="login-form" class="form-content">
-        <!-- Login Form Goes Here -->
-        <h2>Login</h2>
-        <form>
-          <!-- Add your login form fields here -->
-          <button type="submit" onclick="login.html">Login</button>
-        </form>
-      </div>
-      <div id="register-form" class="form-content">
-        <!-- Registration Form Goes Here -->
-        <h2>Register</h2>
-        <form>
-          <!-- Add your registration form fields here -->
-          <button type="submit" onclick="register.html">Register</button>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <script src="HomePage.js"></script>
-
 </body>
 </html>
