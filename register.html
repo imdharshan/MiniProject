@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="register.css">
+  <title>Your Crop Market</title>
+</head>
+<body>
+  <!-- Your existing HTML code -->
+
+  <div class="overlay" id="overlay">
+    <div class="form-container" id="form-container">
+      <span class="close-btn" onclick="closeForm()">×</span>
+      <div id="login-form" class="form-content">
+        <!-- Your existing login form -->
+      </div>
+      <div id="register-form" class="form-content">
+        <h2>Register</h2>
+        <form>
+          <div class="input-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
+          </div>
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <div class="input-group">
+            <label>Select Role:</label>
+            <input type="radio" id="buyer" name="role" value="buyer" required>
+            <label for="buyer">Buyer</label>
+            <input type="radio" id="seller" name="role" value="seller" required>
+            <label for="seller">Seller/Farmer</label>
+          </div>
+          <button type="submit">Register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="register.js"></script>
+</body>
+</html>
+

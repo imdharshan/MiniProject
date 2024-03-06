@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="HomePage.css">
+  <title>Agro Mart</title>
+</head>
+<body>
+  <header>
+    <div class="logo">Agro Mart</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">My Cart</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cta-section">
+      <h1>Welcome to Your Crop Market</h1>
+      <p>Your fresh and quality crops marketplace!</p>
+    </section>
+
+    <section class="login-section">
+      <div class="login-buttons">
+        <button onclick="showLoginForm()">Login</button>
+        <button onclick="showRegisterForm()">Register</button>
+      </div>
+    </section>
+
+    <section class="slogans-section">
+      <p class="slogan">"Harvesting happiness for you!"</p>
+      <p class="slogan">"From farm to table, the freshest journey."</p>
+    </section>
+  </main>
+
+  <div class="overlay" id="overlay">
+    <div class="form-container" id="form-container">
+      <span class="close-btn" onclick="closeForm()">×</span>
+      <div id="login-form" class="form-content">
+        <!-- Login Form Goes Here -->
+        <h2>Login</h2>
+        <form>
+          <!-- Add your login form fields here -->
+          <button type="submit" onclick="login.html">Login</button>
+        </form>
+      </div>
+      <div id="register-form" class="form-content">
+        <!-- Registration Form Goes Here -->
+        <h2>Register</h2>
+        <form>
+          <!-- Add your registration form fields here -->
+          <button type="submit" onclick="register.html">Register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="HomePage.js"></script>
+
+</body>
+</html>
